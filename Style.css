@@ -1,0 +1,27 @@
+.wrapper{
+    display: grid;
+}
+.shape{
+  display: flex;
+}
+.shape:nth-child(1){
+  grid-column: 1/2;
+  background: url("https://drive.google.com/uc?export=view&id=1UqTdn97Ql5S7NU0CUeQRXGY2Z5YJRzWc");
+  background-repeat: no-repeat;
+  height: 652px;
+}
+.shape:nth-child(2){
+  grid-column: 1/2;
+  background-color: lightblue; 
+  font-size: 14px;
+  font-family: sans-serif;
+  font-style: italic;
+  justify-content: center;
+  text-align: center;
+}
+.shape:nth-child(1):hover {
+  background: url("https://drive.google.com/uc?export=view&id=1rmtKM-15JPXFNMZNep7LibWHVarWo_x6");
+  background-repeat: no-repeat;
+  height: 652px;
+  transition: background 2s ease;
+}
